@@ -8,4 +8,8 @@ All execution steps are logged as flat JSON events.
 On terminal failure, an alert is emitted.
 
 Configuration is handled via environment variables.
-To run: set GEMINI_API_KEY, pip install requests and execute `python main.py -i input.md`.
+
+To run:
+1. Set GEMINI_API_KEY
+2. Install dependencies
+3. Run: python main.py -i input.md
